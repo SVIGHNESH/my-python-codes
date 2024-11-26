@@ -1,16 +1,18 @@
-number =int (input("Enter the number:"))
-length = len(str(number))
-temp = number
-sum = 0
-while temp > 0:
-    digit = temp % 10
-    sum +=digit ** length
-    temp = temp // 10
-print (f"The given number is {number} and the sum is {sum} ")
-if sum == number:
-    print(f"Number {number} is armstrong number")
-else:
-    print("The given number is not armstrong number. " )  
+def check_Armstrong(n):
+    temp = n
+    sum = 0
+    while temp > 0:
+            digit = temp % 10
+            sum +=digit ** length
+            temp = temp // 10
+    
+    if sum == n:
+        return True
+    else:
+        return False
 
      
+n =int (input("Enter the number:"))
 
+length = len(str(n))
+print(check_Armstrong(n))
