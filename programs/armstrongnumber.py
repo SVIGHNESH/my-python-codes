@@ -7,9 +7,9 @@ def check_Armstrong(n):
             temp = temp // 10
     
     if sum == n:
-        return True
+        return "Yes"
     else:
-        return False
+        return "No"
 
      
 n =int (input("Enter the number:"))
