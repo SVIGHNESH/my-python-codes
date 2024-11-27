@@ -1,4 +1,4 @@
-def my_function(x):
+def reverse_string(x):
   print(x[::-1])
 
-my_function("Hello")
+reverse_string("VIGHNESH")
