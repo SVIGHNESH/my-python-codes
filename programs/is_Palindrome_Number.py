@@ -5,8 +5,8 @@ def is_Palindrome_Number(Number):
         return 1
     else:
         return 0
-Number = input("Enter the Number To BE Checked :")
+Number = input("Enter the Number to be Checked :")
 if is_Palindrome_Number(Number):
     print(f"{Number} is Palindrome Number.")
 else:
-    print(f"{Number} is not a Palindrome NUmber.")
+    print(f"{Number} is not a Palindrome Number.")
