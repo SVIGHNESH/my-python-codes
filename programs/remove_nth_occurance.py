@@ -6,7 +6,6 @@ def remove_nth_occurrence(s, char, n):
             count += 1
             if count == n: 
                 continue
-            
             result += c
            
         else:
