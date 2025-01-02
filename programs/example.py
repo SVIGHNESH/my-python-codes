@@ -1,2 +1,2 @@
-a = "Name"
-print(a.lower())
+x = (7&12)<<3^3**2//12
+print(x)
