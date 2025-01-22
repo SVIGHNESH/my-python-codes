@@ -1,1 +1,3 @@
-1 have the base of the 2 and it will be 10 
+this is the main program of the file Hello world.
+Python programming is fun.
+The world of Python.
