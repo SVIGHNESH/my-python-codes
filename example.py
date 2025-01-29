@@ -4,6 +4,9 @@ root = tk.Tk()
 root.geometry("400x300")
 root.title("Hello")
 
-myLabel = tk.Label(root,text="Hello World from the Tkinter ")
-myLabel.pack()
+Label = tk.Label(root,text="Hello",font=("Cursive",18))
+Label.pack()
+
+
+
 root.mainloop()
