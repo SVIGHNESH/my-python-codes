@@ -1,3 +1,1 @@
-this is the main program of the file Hello world.
-Python programming is fun.
-The world of Python.
+HELLO
