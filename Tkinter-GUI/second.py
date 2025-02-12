@@ -3,7 +3,7 @@ from tkinter import *
 window=Tk()
 
 
-photo=PhotoImage(file="/home/vighnesh/Desktop/Phython/Tkinter-GUI/Logo1.png")
+
 
 label = Label(window,text="Hello World",
               font=("Arial",40,"bold"),
@@ -12,8 +12,10 @@ label = Label(window,text="Hello World",
               relief=RAISED,
               bd=3,
               padx=20,                                  
-              image=photo,
+              image=PhotoImage(file="/home/vighnesh/Desktop/Phython/Tkinter-GUI/Logo1.png"),
               compound=BOTTOM)
+
+
 
 #Hello i am here to show you what the tkinter can do
 label.pack()
