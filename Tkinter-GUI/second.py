@@ -1,10 +1,6 @@
 from tkinter import *
 
 window=Tk()
-
-
-
-
 label = Label(window,text="Hello World",
               font=("Arial",40,"bold"),
               fg="green",
@@ -13,7 +9,9 @@ label = Label(window,text="Hello World",
               bd=3,
               padx=20,                                  
               image=PhotoImage(file="/home/vighnesh/Desktop/Phython/Tkinter-GUI/Logo1.png"),
-              compound=BOTTOM)
+              compound=BOTTOM,
+              
+              )
 
 
 
