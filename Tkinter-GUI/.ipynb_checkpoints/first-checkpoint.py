@@ -8,7 +8,7 @@ window.title("HELLLO")
 icon = PhotoImage(file="/home/vighnesh/Desktop/Phython/Tkinter-GUI/Logo1.png")
 window.iconphoto(True,icon)
 window.config(background="#77f")
-
+#i don;t knoe the col
 
 
 
