@@ -11,9 +11,9 @@ label = Label(window,text="Hello World",
               bg="black",
               relief=RAISED,
               bd=3,
-              padx=20,
-              pady=20,
-              image=photo)
+              padx=20,                                  
+              image=photo,
+              compound=BOTTOM)
 
 #Hello i am here to show you what the tkinter can do
 label.pack()
