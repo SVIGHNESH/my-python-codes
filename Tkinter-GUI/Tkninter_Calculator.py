@@ -1,4 +1,5 @@
 from tkinter import *
+import emoji
 def button_press(num):
     global equation_text
 
@@ -29,13 +30,15 @@ def clear():
 
 window = Tk()
 window.title("Calculator")
-window.geometry("500x600")
+
+credit=Label(window,text="Made by Vighnesh Shukla with \u2665")
+credit.pack()
 
 equation_text = ""
 
 equation_label = StringVar()
 
-label=Label(window,textvariable=equation_label,font=("consolas",20),bg="white",width=24,height=2)
+label=Label(window,textvariable=equation_label,font=("consolas",20),bg="white",width=24,height=2,pady=20)
 label.pack()
 
 frame = Frame(window)
@@ -176,6 +179,9 @@ clear=Button(frame,
                font=35,
                command=clear)
 clear.grid(row=4,columnspan=4)
+
+# credit=Label(window,text="Made by Vighnesh Shukla with \u2665")
+# credit.pack()
 
 
 window.mainloop()
