@@ -16,7 +16,7 @@ buttonFrame.columnconfigure(0,weight=1)
 buttonFrame.columnconfigure(1,weight=1)
 buttonFrame.columnconfigure(2,weight=1)
 
-btn1=tk.Button(buttonFrame,text="1")
+btn1=tk.Button(buttonFrame,text="1",command=sum)
 btn1.grid(row=0,column=0,sticky=tk.W+tk.E)
 
 btn2=tk.Button(buttonFrame,text="2")
@@ -48,4 +48,4 @@ btn9.grid(row=2,column=2,sticky=tk.W+tk.E)
 buttonFrame.pack(pady=10,fill="x")
 
 
-root.mainloop() 
+root.mainloop()
