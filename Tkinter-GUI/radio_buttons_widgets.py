@@ -4,13 +4,21 @@ from tkinter import *
 
 food = ['Pizza      ','HamBurger','HotDog']
 window = Tk()
-pizzaImage=PhotoImage(file="pizza.png")
-hotdogImage=PhotoImage(file="hotdog.png")
-burgerImage=PhotoImage(file="hamburger.png")
+pizzaImage=PhotoImage(file="/home/vighnesh/Desktop/Phython/Tkinter-GUI/pizza.png")
+hotdogImage=PhotoImage(file="/home/vighnesh/Desktop/Phython/Tkinter-GUI/hotdog.png")
+burgerImage=PhotoImage(file="/home/vighnesh/Desktop/Phython/Tkinter-GUI/hamburger.png")
 foodImages=[pizzaImage,burgerImage,hotdogImage]
 
-
- 
+def order():
+    if(x.get() == 0):
+        print("You ordered the Pizza!")
+    elif(x.get() == 1):
+        print("You ordered the HotDog!")
+    elif(x.get()==2):
+        print("You ordered a Burger.")
+    else:
+        print("Huh?")
+    
 
 x=IntVar()
 for index in range(len(food)):
@@ -24,6 +32,7 @@ for index in range(len(food)):
                             compound=LEFT,# puts image at the left of the text 
                             indicatoron=False, # eliminate the circle indicators
                             width=450,#sets widh of radio button
+                            command=order,
 
                             )
     radio.pack(anchor="w")
