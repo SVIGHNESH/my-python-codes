@@ -4,4 +4,4 @@ def TOH(n,A,B,C):
         print(f"Move a Disc from {A} to {C}")
         TOH(n-1,B,A,C)
 
-TOH(3,1,2,3)
+TOH(4,1,2,3)
