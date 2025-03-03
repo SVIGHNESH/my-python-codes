@@ -51,3 +51,5 @@ photo2 = PhotoImage(file="/home/vighnesh/Desktop/Phython/Tkinter-GUI/java.png")
 checkbox2.config(image=photo2,compound=RIGHT)# sets the image to the checkbox 
 
 window.mainloop()
+
+#i don't remember to the working of the tkinter
