@@ -7,3 +7,4 @@ print("Division:", num1 / num2 )
 print("Modulus:", num1 % num2)
 
 
+#this is the program to calculate the addition , subtraction,multiplication,divide
