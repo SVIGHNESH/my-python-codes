@@ -4,4 +4,6 @@ if number > 0:
 elif number < 0:
     print("Entered number is Negative.") 
 else:
-    print("Entered number is Zero.")       
+    print("Entered number is Zero.")      
+
+#this is the comment for keeping the github commit record 
