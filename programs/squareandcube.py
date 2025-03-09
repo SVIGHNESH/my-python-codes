@@ -5,3 +5,4 @@ print("The square of the given number is: ",square)
 print("The cube of the given number is : ",cube)
 
 #fgghfhgluggc
+#vgjhbhguyigh
