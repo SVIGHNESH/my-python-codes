@@ -6,4 +6,7 @@ def TOH(n,A,B,C):
 
 TOH(4,1,2,3)
 
+
+
+#we can take the any number of the stands here
 #toh of 4 stnds
