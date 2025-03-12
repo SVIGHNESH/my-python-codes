@@ -6,3 +6,4 @@ def count1(s):
             count += 1 
     return count 
 print(count1("I Love India"))
+#this program is the program to check the number of the vowels in a given string 
