@@ -16,4 +16,5 @@ n =int (input("Enter the number:"))
 
 length = len(str(n))
 print(check_Armstrong(n))
-#this is program that shows whether the number is Armstrong or Not!
+#this is program that shows whether the number is Armstrong 
+#program od the one 

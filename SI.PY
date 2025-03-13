@@ -5,4 +5,5 @@ si=(p*r*t)/100
 print(f"The Simple Interest of the principle {p},rate{r},time{t} is {si}")
 
 
-#thus ish jrchener fhuwr fjeutntnsiwjlh.xjskdc kgsiwickck
+#thusihaisnfei nih'ewifnifnwe
+##thus ish jrchener fhuwr fjeutntnsiwjlh.xjskdc kgsiwickck
