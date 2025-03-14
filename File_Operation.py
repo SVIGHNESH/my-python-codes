@@ -24,4 +24,4 @@ data = f.read()
 
 print(data)
 f.close()
-
+#this is the one o tjemzkdoskgm
