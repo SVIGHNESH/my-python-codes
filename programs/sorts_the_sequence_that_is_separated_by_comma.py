@@ -9,8 +9,3 @@ str = input("Enter the string:")
 sort_print(str)
 
 #sort the comma separated sequesnce
-# htils;fklnef;ekfjnw'eij 
-# htils;fklnef;ekfjnw'eij 
-# htils;fklnef;ekfjnw'eij 
-# htils;fklnef;ekfjnw'eij 
-# htils;fklnef;ekfjnw'eij 
