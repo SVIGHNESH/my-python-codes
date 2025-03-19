@@ -1,0 +1,5 @@
+inp_str=input("Enter the comma separated sewuence of words:")
+inp_list = inp_str.split(",")
+output_list=sorted(inp_list)
+output_string=",".join(output_list)
+print(output_string)
