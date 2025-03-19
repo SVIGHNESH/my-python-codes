@@ -8,7 +8,7 @@ print(a)
 b = L[2:-1]
 print(b)
 # iii
-M = L[0:len(L):2]
+M = L[::2]
 print(M)
 # iv
 middle = len(L) //2
@@ -16,10 +16,10 @@ c = L[middle : ]
 print(c)
 
 # v
-N = L
+N = L.copy()
 L[:middle] = L[:middle][::-1]
 print(L)
-
+print(N)
 # vi
 N=[x%2 for x in N]
 print(N)
