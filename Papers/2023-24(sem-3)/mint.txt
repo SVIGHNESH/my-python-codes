@@ -1,0 +1,1 @@
+Given 2 integer ,return their product only if the product is equal to lower that 10
