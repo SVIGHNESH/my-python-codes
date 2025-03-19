@@ -3,6 +3,7 @@ content  = file.readline()
 while content:
     print(content.strip())
     content = file.readline()
+    
 file.close()
 
 
