@@ -1,0 +1,1 @@
+print(df.sort_values("MARKS-OF-COA"))
