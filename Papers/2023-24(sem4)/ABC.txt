@@ -1,0 +1,6 @@
+this is the first 
+this is the second
+this is the third
+The number of the words in this file is 12
+The number of the lines in this file is 3
+The number of the charachter in  this file is 55
