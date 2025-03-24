@@ -17,7 +17,7 @@ def order():
     elif(x.get()==2):
         print("You ordered a Burger.")
     else:
-        print("Huh?")
+        print("Huh?") #am ia 
     
 
 x=IntVar()
