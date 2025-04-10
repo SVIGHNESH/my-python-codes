@@ -1,0 +1,3 @@
+
+# rabbit = Rabbit()
+# rabbit.flee()
