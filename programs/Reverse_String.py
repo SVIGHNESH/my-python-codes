@@ -6,4 +6,4 @@ def replace_nth_char(s, n, char):
         return s
     #Test the function
 s  = "Hello, World!"
-n = 
+n = 0
