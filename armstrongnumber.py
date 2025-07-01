@@ -11,6 +11,3 @@ if sum == number:
     print(f"Number {number} is armstrong number")
 else:
     print("The given numbe is not armstrong number. " )  
-
-#rr huss edits shyd S ekta se umbrella
-
