@@ -29,3 +29,4 @@ dog.eat()
 cat.sleep()
 print(mouse.name)
 print(mouse.isalive)
+#python supports the multiple inheritance 
