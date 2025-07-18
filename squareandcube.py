@@ -7,3 +7,4 @@ print("The cube of the given number is : ",cube)
 
 
 #wgeyryyythsbdbguengsldalyehsksfrirjfg
+#fe endgame ha se ed he see da se DXB ka s
