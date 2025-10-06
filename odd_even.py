@@ -4,3 +4,4 @@ if num % 2 == 0:
 else:
     print(f"{num} is odd number.")    
 
+# THis is just FOR THE COMMIT STREAK
